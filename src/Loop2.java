@@ -8,7 +8,6 @@ class Loop2{
         while(loop<=number){
                 int a=sc.nextInt();
                 int b=sc.nextInt();
-                int c=b;
                 int n=sc.nextInt();
                 result=0;
 
