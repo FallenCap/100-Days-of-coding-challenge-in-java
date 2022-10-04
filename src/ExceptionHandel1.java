@@ -5,7 +5,8 @@ public class ExceptionHandel1 {
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     public static void main(String[] args) throws IOException {
     	
-        double d = 0;int a=0;
+        double d = 0;
+        int a=0;
         System.out.println("Enter a input: ");
         String c= br.readLine();
         try {
@@ -15,7 +16,7 @@ public class ExceptionHandel1 {
             }
             else {
                 a=Integer.parseInt(c);
-                System.out.println(nextValue(c));
+                System.out.println(nextValue(a));
             }
         }
         catch (NumberFormatException e) {
