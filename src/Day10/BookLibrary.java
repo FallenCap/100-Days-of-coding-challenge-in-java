@@ -93,15 +93,15 @@ public class BookLibrary {
 
 
 //TestCase2: 
-//Input(argument) = 1, "Math", "Subham", "abc", 114.32, 5
+//Input(argument) = 2, "Science", "Abhishek", "xyz", 117.38, 0
 //Output:
-//Serial Number: 1 
-//Book Name: Math
-//Book Author: Subham
-//publisher: abc
-//Price: 114.32
-//quantity: 5
+//Serial Number: 2 
+//Book Name: Science
+//Book Author: Abhishek
+//publisher: xyz
+//Price: 117.38
+//quantity: 0
 //
-//Yes the book is available. You can take one copy.
+//No the book is not available. Contact after few day.
 //
-//You have returned the book.
+//You returned the wrong book
