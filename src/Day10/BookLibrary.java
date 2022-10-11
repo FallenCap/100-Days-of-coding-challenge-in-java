@@ -75,7 +75,7 @@ public class BookLibrary {
 	}
 
 }
-//------------ Test Cases ------------
+//------------ Test Cases -----------
 
 //TestCase1: 
 //Input(argument) = 1, "Math", "Subham", "abc", 114.32, 5
