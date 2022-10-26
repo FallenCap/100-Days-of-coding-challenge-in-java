@@ -88,4 +88,51 @@ public class OvertimePay {
 
 
 //TestCase2:
-
+//Enter the number of workers you want: 8
+//Enter the name of the person 1:Subham
+//Enter the name of the person 2:Soumyadeep
+//Enter the name of the person 3:Niloy
+//Enter the name of the person 4:Atin
+//Enter the name of the person 5:Sarvesh
+//Enter the name of the person 6:Pavan
+//Enter the name of the person 7:Surya
+//Enter the name of the person 8:Raj
+//
+//
+//Subham's total work time in this week in hours is:32
+//Soumyadeep's total work time in this week in hours is:45
+//Niloy's total work time in this week in hours is:21
+//Atin's total work time in this week in hours is:67
+//Sarvesh's total work time in this week in hours is:43
+//Pavan's total work time in this week in hours is:34
+//Surya's total work time in this week in hours is:87
+//Raj's total work time in this week in hours is:65
+//
+//
+//Subham's total work time is less then 40 hours so he dosen't get any over time payment.
+//
+//
+//Soumyadeep's total overtime in hours is:5
+//Soumyadeep's Total over time payment: 60
+//
+//
+//Niloy's total work time is less then 40 hours so he dosen't get any over time payment.
+//
+//
+//Atin's total overtime in hours is:27
+//Atin's Total over time payment: 324
+//
+//
+//Sarvesh's total overtime in hours is:3
+//Sarvesh's Total over time payment: 36
+//
+//
+//Pavan's total work time is less then 40 hours so he dosen't get any over time payment.
+//
+//
+//Surya's total overtime in hours is:47
+//Surya's Total over time payment: 564
+//
+//
+//Raj's total overtime in hours is:25
+//Raj's Total over time payment: 300
