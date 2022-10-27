@@ -15,6 +15,9 @@ package Day16;
 
 import java.util.*;
 class BatsMan {
+	//Defining the class BatsMan
+	
+	//Declaring the variables globally
 	Scanner sc = new Scanner(System.in);
 	String firstName;
 	String lastName;
@@ -23,6 +26,8 @@ class BatsMan {
 	int overs;
 	
 	void AssignValues () {
+		//Constructor for initialize the global variables
+		
 		System.out.print("Enter the first name of the batsman: ");
 		this.firstName = sc.nextLine();
 		System.out.print("Enter the second name of the batsman: ");
@@ -35,15 +40,17 @@ class BatsMan {
 		this.overs = sc.nextInt();
 	}
 	int UpdateRun () {
+		//Constructor for update the runs
 		int totalRuns = 0;
 		for(int n = 1; n <= overs; n++) {
 			System.out.println("In the " + n + " over the run is: ");
 			int run = sc.nextInt();
 			totalRuns += run;
 		}
-		return(totalRuns);
+		return totalRuns;
 	}
 	void BatsmanInfo () {
+		//Constructor for displaying the Batsman info
 		int s = UpdateRun();
 		System.out.print(this.firstName + " " + this.lastName);
 		System.out.println(" Total fours in this match: " + this.fours);
@@ -54,9 +61,10 @@ class BatsMan {
 public class Cricket {
 
 	public static void main(String[] args) {
+		
 		BatsMan bat = new BatsMan();
 		bat.AssignValues();
-//		bat.UpdateRun();
+		bat.UpdateRun();
 		bat.BatsmanInfo();
 	}
 
