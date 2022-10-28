@@ -1,3 +1,6 @@
+//Searching for an element in an unsorted array using Insertion sort and Binary Search.
+
+
 package Day17;
 
 import java.util.Scanner;
@@ -108,3 +111,41 @@ public static int BinarySearch(int arr1[], int key1) {
 //Element found at: 8
 
 //TestCase2:
+//Enter the array length: 15
+//1 element: 21
+//2 element: 23
+//3 element: 12
+//4 element: 8
+//5 element: 45
+//6 element: 4
+//7 element: 18
+//8 element: 15
+//9 element: 87
+//10 element: 24
+//11 element: 64
+//12 element: 41
+//13 element: 69
+//14 element: 76
+//15 element: 29
+//After sorting the array is: 
+//4 
+//8 
+//12 
+//15 
+//18 
+//21 
+//23 
+//24 
+//29 
+//41 
+//45 
+//64 
+//69 
+//76 
+//87 
+//Enter the number you want to search: 12
+//step: 24
+//step: 15
+//step: 8
+//step: 12
+//Element found at: 2
