@@ -49,3 +49,12 @@ public static void Random(char randomizedCharacter1, int k1) {
 
 
 //Output2:
+//Enter a alphabet 26: a
+//Enter a alphabet 25: b
+//Enter a alphabet 24: c
+//Enter a alphabet 23: d
+//Enter a alphabet 22: e
+//Enter a alphabet 21: f
+//Enter a alphabet 20: g
+//Enter a alphabet 19: h
+//Congrats you have guessed the right alphabet.
