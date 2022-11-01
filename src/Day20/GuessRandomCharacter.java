@@ -20,7 +20,6 @@ public static void Random(char randomizedCharacter1, int k1) {
     }while(k1>0);
 }
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Random random = new Random();
 	    char randomizedCharacter = (char) (random.nextInt(26) + 'a');
 	    int k = 26;
