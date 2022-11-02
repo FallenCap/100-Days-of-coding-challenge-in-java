@@ -1,3 +1,5 @@
+//Write a Java program to increase the size of an array list.
+
 package Day22;
 
 import java.util.*;
