@@ -9,7 +9,7 @@ public class DeleteFisrtElementPQ {
 		//Creating Priority Queue
 		PriorityQueue<Integer> pq1 = new PriorityQueue<Integer>();
 		
-		//Add Numbers in the priority queue
+		//Add Elements in the priority queue
 		pq1.add(10);
 		pq1.add(11);
 		pq1.add(8);
