@@ -24,7 +24,6 @@ public class KaprekerNumber {
             count_digits++;
             sq_n /= 10;
         }
-      
         sq_n = n*n; // Recompute square as it was changed
       
         // Split the square at different points and see if sum
@@ -71,4 +70,5 @@ public class KaprekerNumber {
 //Output: 1 9 45 55 99 297 703 999 
 
 //TestCase2:
-
+//Input: 10000
+//Output: 1 9 45 55 99 297 703 999 2223 2728 4879 4950 5050 5292 7272 7777 9999
