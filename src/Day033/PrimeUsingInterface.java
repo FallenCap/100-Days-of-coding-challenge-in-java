@@ -1,5 +1,5 @@
-/*Create a inteface in1 which includes a method display which takes an integer as input .
- Now write a class  which implements interface in1 and has a method named display.
+/*Create a interface in1 which includes a method display which takes an integer as input .
+ Now write an class  which implements interface in1 and has a method named display.
   Which takes an integer as input and total number of prime numbers between 2 and integer k (including it).
 */
 
