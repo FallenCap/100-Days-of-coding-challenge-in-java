@@ -8,22 +8,30 @@ package Day033;
 import java.util.Scanner;
 
 interface in1 {
+	//Creating the interface in2.
 	void display(int r1);
 }
 
 class printPrime implements in1 {
+	//Creating the class to display the numbers of peime number in the given range which implements the interface in1.
 
 	@Override
 	public void display(int r1) {
+		//overriding the display method.
+		
+		//Initializing the i and ans.
 		int i = 2;
 		int ans = 0;
 		
 		while(i <= r1) {
+			// if the modulus is not zero then i is a prime number.
 			if(i % 2 != 0) {
 				ans++;
 			}
 			i++;
 		}
+		
+		//Printing the number of prime numbers.
 		System.out.println("The numbers of prime numbers between 2 to " + r1 + " is: " + ans);
 	}
 	
@@ -33,10 +41,14 @@ public class PrimeUsingInterface {
 	public static Scanner sc = new Scanner(System.in);
 	
 	public static void main(String[] args) {
+		//Entering the range.
 		System.out.println("Enter the range: ");
 		int range = sc.nextInt();
 		
+		//Creating instance printPrime.
 		printPrime p1 = new printPrime();
+		
+		//Calling the method.
 		p1.display(range);
 		
 	}
