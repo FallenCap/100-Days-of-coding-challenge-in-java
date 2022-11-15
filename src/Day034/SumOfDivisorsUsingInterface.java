@@ -3,7 +3,7 @@
  Which takes an integer as input and display the sum of the divisors of the number.
   */
 
-package Day34;
+package Day034;
 
 import java.util.*;
 
