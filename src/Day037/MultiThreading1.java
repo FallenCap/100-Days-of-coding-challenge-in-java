@@ -1,4 +1,4 @@
-/*Write  a  multithreading  program  by  using  runnable interface  in which  run ()  method 
+/*Write  a  multithreading  program  by  using  extends thread  in which  run ()  method 
 should perform the following task:
 Display a time stamp
 Display greeting message for 10 times (Such as hi, hello, good morning)
