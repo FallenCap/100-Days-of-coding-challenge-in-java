@@ -25,7 +25,7 @@ public class CountingVowelCosonentSpaceFile {
 		
 		try {
 			//Creating a object of the file.
-			File testCase = new File("D:\\codes\\Java GitHub\\100am -Days-of-coding-challenge-in-java\\src\\Day039\\testCase.txt");
+			File testCase = new File("D:\\codes\\Java GitHub\\100-Days-of-coding-challenge-in-java\\src\\Day039\\testCase.txt");
 			Scanner sc = new Scanner(testCase);
 		      while (sc.hasNextLine()) {
 		        String data1 = sc.nextLine();
@@ -61,3 +61,18 @@ public class CountingVowelCosonentSpaceFile {
 	}
 
 }
+
+
+
+
+//-------------Test Case-------------
+//Input: Hello I am Subham
+//Output: 
+//vowels:6
+//Consonent:8
+//BlankSpace:3
+
+//Input: Winter is coming
+//vowels:5
+//Consonent:9
+//BlankSpace:2
