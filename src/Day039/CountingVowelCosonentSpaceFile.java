@@ -9,7 +9,7 @@ public class CountingVowelCosonentSpaceFile {
 
 	public static void main(String[] args) throws IOException  {
 		
-		//Taking a Strign as a input from user.
+		//Taking a String as a input from user.
 		System.out.println("Enter the text you want to print into the text file: ");
 		String data = br.readLine();
 		try {
