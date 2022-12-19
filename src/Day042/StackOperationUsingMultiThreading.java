@@ -67,7 +67,7 @@ StackPop pop = new StackPop(s);
 			pop.t.join();
 		}
 		catch(Exception e) {
-			System.out.println("Invalid transaction.");
+			System.out.println(e);
 		}
 	}
 }
