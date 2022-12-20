@@ -35,7 +35,7 @@ public class SelectAllUsingCallableJDBC {
 			String password = "1234";
 			connection = DriverManager.getConnection(dbURL, username, password);
 			
-			db.selectAllRecords(); //Calling th method.
+			db.selectAllRecords(); //Calling the method.
 		} 
 		catch (ClassNotFoundException | SQLException e) {
 			throw new RuntimeException("Class not found.");
