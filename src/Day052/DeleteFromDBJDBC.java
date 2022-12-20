@@ -1,3 +1,5 @@
+/*Write a java program to delete data from a database using jdbc.*/
+
 package Day052;
 
 import java.sql.*;
