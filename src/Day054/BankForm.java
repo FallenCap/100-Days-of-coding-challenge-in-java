@@ -1,4 +1,4 @@
-/*Design a simple bank form using java swing component*/
+/*Design a simple bank form using java swing component.*/
 
 package Day054;
 
