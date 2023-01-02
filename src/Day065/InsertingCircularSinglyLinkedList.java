@@ -1,4 +1,4 @@
-/*Implement a Circular Singly linked list and perform insertion operation at begining, at end and  at a given point.*/
+/*Implement a Circular Singly linked list and perform insertion operation at beginning, at end and  at a given point.*/
 
 package Day065;
 
