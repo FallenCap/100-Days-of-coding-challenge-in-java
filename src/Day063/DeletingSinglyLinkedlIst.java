@@ -1,4 +1,4 @@
-/*Implement a Singly linked list and perform deletion operation at begining, at end and  at a given point.*/
+/*Implement a Singly linked list and perform deletion operation at beginning, at end and  at a given point.*/
 
 package Day063;
 
@@ -68,7 +68,7 @@ public class DeletingSinglyLinkedlIst {
 		public void deletePosition(int pos) {
 			Node currentNode = head; //Assigning currentNode as head.
 			
-			for(int i = 0 ; i < pos - 1; i++) {
+			for(int i = 1 ; i < pos - 1; i++) {
 				currentNode = currentNode.next;
 			}
 			currentNode.next = currentNode.next.next;
