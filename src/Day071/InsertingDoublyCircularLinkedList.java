@@ -1,4 +1,4 @@
-/*Implement Doubly linked list and perform insertion operation at begining, at end and  at a given point using java.*/
+/*Implement Doubly linked list and perform insertion operation at beginning, at end and  at a given point using java.*/
 
 package Day071;
 
