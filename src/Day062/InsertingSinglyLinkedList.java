@@ -80,7 +80,7 @@ private Node head;
 		Node newNode = new Node(); //Creating new node.
 		Node currentNode = head; //assigning current node as head.
 		
-		for(int i = 0; i < pos - 1; i++) {
+		for(int i = 1; i < pos - 1; i++) {
 			//Running loop before the  giving position.
 			currentNode = currentNode.next;
 		}
@@ -198,6 +198,6 @@ private Node head;
 //Enter the data: 
 //55
 //Enter the position
-//5
+//6
 //List (first --> last) 
 //{10}-->{20}-->{30}-->{40}-->{50}-->{55}-->{60}-->{70}-->{80}-->{90}-->{100}-->
