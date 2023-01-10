@@ -66,7 +66,7 @@ public class InsertingCircularSinglyLinkedList {
 		Node newNode = new Node(); //Creating new node.
 		Node currentNode = head; //assigning current node as head.
 		
-		for(int i = 0; i < pos - 1; i++) {
+		for(int i = 1; i < pos - 1; i++) {
 			//Running loop before the  giving position.
 			currentNode = currentNode.next;
 		}
@@ -186,7 +186,7 @@ public class InsertingCircularSinglyLinkedList {
 //Enter the data: 
 //45
 //Enter the position
-//4
+//5
 //List (first --> last-->first) 
 // { 10 }  { 20 }  { 30 }  { 40 }  { 45 }  { 50 }  { 60 }  { 70 }  { 80 }  { 90 }  { 100 } 
 
