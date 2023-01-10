@@ -1,4 +1,4 @@
-/*Implement Stack using Linked list and also show the push mehod, show the top, height and also print the stack in java.*/
+/*Implement Stack using Linked list and also show the push method, show the top, height and also print the stack in java.*/
 
 package Day073;
 
