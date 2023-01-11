@@ -15,7 +15,7 @@ public class StackUsingLinkedList {
 	private Node top;
 	private int height = 0;
 	
-	//Constructor for creating the stack.
+	//Method for push function.
 	public void push (int data) {
 		Node newNode = new Node(); //Creating newNode.
 		newNode.data = data; //Entering data into the node.
