@@ -4,7 +4,7 @@ package Day073;
 
 import java.util.Scanner;
 
-//Creating class Node for the Stcak.
+//Creating class Node for the Stack.
 class Node {
 	int data;
 	Node next;
@@ -31,7 +31,7 @@ public class StackUsingLinkedList {
 		
 	}
 	
-	//Method for print the stak.
+	//Method for print the stack.
 	public void printStack() {
 		Node temp = top; //Assigning top as temp.
 		System.out.println("\nStack:");
@@ -47,6 +47,7 @@ public class StackUsingLinkedList {
 		System.out.println("\nTop: " +  top.data);
 	}
 	
+	//Method to show the height of the stack.
 	public void getHeight() {
 		System.out.println("\nHeight: " + height);
 	}
