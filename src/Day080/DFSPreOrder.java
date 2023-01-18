@@ -1,3 +1,5 @@
+/*Perform Depth First Search Pre-order in a BST using  java.*/
+
 package Day080;
 
 import java.util.*;
@@ -98,4 +100,4 @@ public class DFSPreOrder {
 //TestCase2:
 //Input: 21, 23, 32, 12, 45, 12, 39
 //Output: 
-//After Breadth first search: [21, 12, 23, 32, 45, 39]
+//After Depth first search Pre-order: [21, 12, 23, 32, 45, 39]
