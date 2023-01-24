@@ -37,6 +37,8 @@ public class AddEdgeVertexGraph {
 
         myGraph.addVertex("A");
         myGraph.addVertex("B");
+        myGraph.addVertex("C");
+        myGraph.addVertex("D");
 
 
         System.out.println("\nGraph before addEdge():");
@@ -44,6 +46,10 @@ public class AddEdgeVertexGraph {
 
 
         myGraph.addEdge("A", "B");
+        myGraph.addEdge("A", "C");
+        myGraph.addEdge("A", "D");
+        myGraph.addEdge("B", "C");
+        myGraph.addEdge("C", "D");
 
 
         System.out.println("\nGraph after addEdge():");
@@ -64,3 +70,12 @@ Graph after addEdge():
 {A=[B], B=[A]}
 */
 
+
+//TestCase2: 
+/*
+Graph before addEdge():
+{A=[], B=[], C=[], D=[]}
+
+Graph after addEdge():
+{A=[B, C, D], B=[A, C], C=[A, B, D], D=[A, C]}
+*/
