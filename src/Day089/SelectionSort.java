@@ -1,3 +1,5 @@
+/*Implement Selection Sort using java.*/
+
 package Day089;
 
 import java.util.Arrays;
@@ -46,3 +48,37 @@ public class SelectionSort {
 	}
 
 }
+
+
+//------------ Test Cases -----------
+//TestCase1:
+/*
+Enter the length of the array: 
+5
+Enter the array elements: 
+21
+13
+26
+32
+2
+Array after Bubble Sort: [2, 13, 21, 26, 32]
+*/
+
+
+//TestCase2:
+/*
+Enter the length of the array: 
+10
+Enter the array elements: 
+10
+21
+24
+32
+56
+43
+78
+2
+1
+76
+Array after Bubble Sort: [1, 2, 10, 21, 24, 32, 43, 56, 76, 78]
+*/
