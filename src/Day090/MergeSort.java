@@ -1,3 +1,5 @@
+/*Implement MergeSort Sort using java.*/
+
 package Day090;
 
 import java.util.*;
@@ -52,4 +54,5 @@ public class MergeSort {
 
 
 //TestCase2: 
-//
+//Array after merge sort: [2, 4, 5, 6, 10, 32, 3, 43, 12, 87]
+
