@@ -6,7 +6,7 @@ import java.util.*;
 
 public class MergeSort {
 
-	//Method for merge sort.
+	//Method for merge.
 	public static int[] merge(int[] array1, int[] array2) {
         int[] combined = new int[array1.length + array2.length];
         int index = 0;
@@ -36,12 +36,22 @@ public class MergeSort {
         return combined;
     }
 	
+	//Method for Merge Sort
+	 public static int[] mergeSort(int[] array) {
+	        if (array.length == 1) return array;
+
+	        int midIndex = array.length/2;
+	        int[] left = mergeSort(Arrays.copyOfRange(array, 0, midIndex));
+	        int[] right = mergeSort(Arrays.copyOfRange(array, midIndex, array.length));
+
+	        return merge(left, right);
+	    }
+	
 	public static void main(String[] args) {
 
 		int[] array1 = {10, 32, 3, 43,12, 87};
-        int[] array2 = {2,4,5,6};
 
-        System.out.println("Array after merge sort: " +  Arrays.toString( merge(array1, array2) ) );
+        System.out.println("Array after merge sort: " +  Arrays.toString( mergeSort(array1) ) );	
 	}
 
 }
