@@ -1,4 +1,4 @@
-//Write a program to delete all vowels from a sentence.
+/*Write a program to delete all vowels from a sentence.*/
 package Day012;
 
 
