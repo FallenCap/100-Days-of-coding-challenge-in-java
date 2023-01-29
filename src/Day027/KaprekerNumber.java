@@ -1,5 +1,4 @@
 /*Write a Java program to generate and show all Kaprekar numbers in a given range.
-
 In number theory, a Kaprekar number for a given base is a non-negative integer, 
 the representation of whose square in that base can be split into two parts that add up to the original number again.
 For instance, 45 is a Kaprekar number, because 452 = 2025 and 20 + 25 = 45 */
