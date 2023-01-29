@@ -1,5 +1,4 @@
-//write a javaprogram to print the following series
-//(a+2^0.b), (a+2^0.b+2^1.b),......,(a+2^0.b+2^1.b+.....+2^n-1.b)
+/*write a javaprogram to print the following series (a+2^0.b), (a+2^0.b+2^1.b),......,(a+2^0.b+2^1.b+.....+2^n-1.b)*/
 
 package Day002;
 import java.util.*;
