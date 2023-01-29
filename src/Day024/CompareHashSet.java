@@ -1,4 +1,4 @@
-//Write a Java program to compare two hash set.
+/*Write a Java program to compare two hash set.*/
 package Day024;
 
 import java.util.*;
