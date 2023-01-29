@@ -1,4 +1,4 @@
-//Write a Java program to reverse an array of integer values.
+/*Write a Java program to reverse an array of integer values.*/
 package Day013;
 import java.util.*;
 public class ReverseArray {
