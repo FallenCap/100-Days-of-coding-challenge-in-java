@@ -1,3 +1,5 @@
+/*Write a java program to implement binary search and insertion sort.*/
+
 package Day005;
 import java.util.Scanner;
 
