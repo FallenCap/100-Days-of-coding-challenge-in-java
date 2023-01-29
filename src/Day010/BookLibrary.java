@@ -1,16 +1,10 @@
-//Define a class which represent a book in library. Include following members as data members
-//
-//Book number, book name, author, publisher, price, No. of copies issued
-//
-//Member function
-//
-//(i) To assign initial value
-//
-//(ii) To issue a book after checking its availability
-//
-//(iii) To return a book
-//
-//(iv) To display book information
+/*Define a class which represent a book in library. Include following members as data members
+Book number, book name, author, publisher, price, No. of copies issued
+Member function
+(i) To assign initial value
+(ii) To issue a book after checking its availability
+(iii) To return a book
+(iv) To display book information*/
 
 package Day010;
 
