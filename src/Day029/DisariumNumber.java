@@ -52,11 +52,11 @@ public class DisariumNumber {
 //TestCase1:
 //Input: 200
 //Output: 
-//The Disarium numbers in 1 to 200 is: 
-//0 1 2 3 4 5 6 7 8 9 89 135 175 
+/*The Disarium numbers in 1 to 200 is: 
+0 1 2 3 4 5 6 7 8 9 89 135 175 */
 
 //TestCase2:
 //Input: 1000
 //Output:
-//The Disarium numbers in 1 to 1000 is: 
-//0 1 2 3 4 5 6 7 8 9 89 135 175 518 598 
+/*The Disarium numbers in 1 to 1000 is: 
+0 1 2 3 4 5 6 7 8 9 89 135 175 518 598 */
