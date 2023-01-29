@@ -1,4 +1,4 @@
-//Write a Java program to increase the size of an array list.
+/*Write a Java program to increase the size of an array list.*/
 
 package Day022;
 
