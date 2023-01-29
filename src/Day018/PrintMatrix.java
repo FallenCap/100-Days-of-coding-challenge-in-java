@@ -1,4 +1,4 @@
-//Write a Java method (takes a number n as input) to displays an n-by-n matrix.
+/*Write a Java method (takes a number n as input) to displays an n-by-n matrix.*/
 package Day018;
 
 import java.util.*;
