@@ -1,14 +1,9 @@
-//Define a class batsman in cricket team. Include the following members:
-//
-//First name, Last name, Runs made, Number of fours, Number of Six
-//
-//Member function:
-//
-//(i) To assign initial value
-//
-//(ii) To update runs made
-//
-//(iii) To display batsman’s information
+/*Define a class batsman in cricket team. Include the following members:
+First name, Last name, Runs made, Number of fours, Number of Six
+Member function:
+(i) To assign initial value
+(ii) To update runs made
+(iii) To display batsman’s information*/
 
 package Day016;
 
