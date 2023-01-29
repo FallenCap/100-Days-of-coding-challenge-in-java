@@ -1,5 +1,4 @@
 /*Write a Java program to classify Abundant, deficient and perfect number (integers) in a given range.
- * 
  In number theory, an abundant number is a number for which the sum of its proper divisors is greater than the number itself.
 Example :
 The first few abundant numbers are:
