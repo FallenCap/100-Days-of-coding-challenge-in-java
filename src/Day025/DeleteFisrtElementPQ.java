@@ -1,4 +1,4 @@
-//Write a Java program to retrieve and remove the first element.
+/*Write a Java program to retrieve and remove the first element.*/
 
 package Day025;
 
