@@ -1,4 +1,4 @@
-//Write a Java program to find the number of days in a month.
+/*Write a Java program to find the number of days in a month.*/
 package Day008;
 import java.util.*;
 
