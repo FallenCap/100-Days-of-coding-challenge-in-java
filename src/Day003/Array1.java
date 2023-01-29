@@ -1,3 +1,5 @@
+/*Write a java program to print the array.*/
+
 package Day003;
 import java.util.*;
 
@@ -11,7 +13,7 @@ public class Array1 {
         
        //Delcare and entering the value of the array. 
         int a[] = new int[n];
-        System.out.println("Enter array length: ");
+        System.out.println("Enter array element: ");
         for(int i = 0; i < n; i++) {
             a[i] = sc.nextInt();
         }
