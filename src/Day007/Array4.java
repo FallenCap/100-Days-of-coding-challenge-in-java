@@ -1,4 +1,4 @@
-// Write a Java program to find the common elements between two arrays of integers.
+/* Write a Java program to find the common elements between two arrays of integers.*/
 package Day007;
 
 import java.util.*;
