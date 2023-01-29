@@ -1,4 +1,4 @@
-//Write a program that will read a line and count all occurrences of the word „the‟.
+/*Write a program that will read a line and count all occurrences of the word „the‟.*/
 package Day011;
 import java.io.*;
 public class CountWord {
