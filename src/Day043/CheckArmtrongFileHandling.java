@@ -72,8 +72,8 @@ public class CheckArmtrongFileHandling {
 
 //TestCase1: 
 //Input: 371(in testCase.txt)
-//Output: 371 is an Armstrong number (in outPut.txt)
+/*Output: 371 is an Armstrong number (in outPut.txt)*/
 
 //TestCase2: 
 //Input: 122(in testCase.txt)
-//Output: 122 is not an Armstrong number (in outPut.txt)
+/*Output: 122 is not an Armstrong number (in outPut.txt)*/
