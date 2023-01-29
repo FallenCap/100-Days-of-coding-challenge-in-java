@@ -1,4 +1,4 @@
-//Write a java program to print a multiplication table from 1 to 10 of any user given number.
+/*Write a java program to print a multiplication table from 1 to 10 of any user given number.*/
 
 package Day001;
 
