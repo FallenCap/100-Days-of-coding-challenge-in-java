@@ -1,10 +1,10 @@
 /* Write overloaded methods named nextValue().
- * If  the  input  is  numeric  value  of  the  type  int,  float,  or  double,  the  associated  methods  should return a value that is onegreater than the input parameter but with the data type similar to the input. 
- * If the input  is a single character either a char or a String, the associated methods should return  a  char  or  a  String  whose  value  is  the  character  immediately  following  the  input parameter. 
- * For  example,  nextValue(‘q’)  must  return  ‘r’.  
- * If  the  input  is  a  String  with more  than one characters, the method should return a new  String whose  content  is the same as the input  but the last position is the  character  immediately following the character in the last  position of the original String. 
- * For example, nextValue(“ABC”) must return “ABD”. If the input is null, the method returns null.
- * */
+If  the  input  is  numeric  value  of  the  type  int,  float,  or  double,  the  associated  methods  should return a value that is onegreater than the input parameter but with the data type similar to the input. 
+If the input  is a single character either a char or a String, the associated methods should return  a  char  or  a  String  whose  value  is  the  character  immediately  following  the  input parameter. 
+For  example,  nextValue(‘q’)  must  return  ‘r’.  
+If  the  input  is  a  String  with more  than one characters, the method should return a new  String whose  content  is the same as the input  but the last position is the  character  immediately following the character in the last  position of the original String. 
+For example, nextValue(“ABC”) must return “ABD”. If the input is null, the method returns null.
+ */
 
 package Day004;
 import java.io.BufferedReader;
