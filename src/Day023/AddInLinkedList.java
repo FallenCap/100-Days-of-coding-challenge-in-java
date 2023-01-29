@@ -1,4 +1,4 @@
-//Write a Java program to insert the specified element at the specified position in the linked list.
+/*Write a Java program to insert the specified element at the specified position in the linked list.*/
 
 package Day023;
 
