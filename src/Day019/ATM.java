@@ -1,13 +1,13 @@
-//Create a class named as Bank account with following fields and methods 
-//Account name 
-//Owner 
-//Account type 
-//Balance 
-//Methods Showing the
-//current balance 
-//Showing all info associated with the account 
-//Withdrawing money from the account 
-//Depositing to the account
+/*Create a class named as Bank account with following fields and methods 
+Account name 
+Owner 
+Account type 
+Balance 
+Methods Showing the
+current balance 
+Showing all info associated with the account 
+Withdrawing money from the account 
+Depositing to the account*/
 
 package Day019;
 
