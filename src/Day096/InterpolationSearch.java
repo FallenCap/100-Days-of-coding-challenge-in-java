@@ -1,3 +1,5 @@
+/*Write a Java program to find a specified element in a given sorted array of elements using Interpolation Search.*/
+
 package Day096;
 
 public class InterpolationSearch {
