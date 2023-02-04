@@ -1,3 +1,5 @@
+/*Write a Java program to find a specified element in a given sorted array of elements using Ternary Search.*/
+
 package Day098;
 
 import java.util.*;
